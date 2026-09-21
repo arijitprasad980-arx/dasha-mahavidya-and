@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>১০ মহাবিদ্যা | The Ten Wisdom Goddesses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;500&family=Tiro+Bangla:ital@0;1&family=Cinzel:wght@500;700&family=Cinzel+Decorative:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cursor-layer" aria-hidden="true">
+      <span class="custom-cursor"></span>
+    </div>
+    <div class="stage">
+      <button type="button" id="audioToggleBtn" class="audio-toggle" aria-label="Toggle music" title="Toggle music">
+        <img src="volplay.png" alt="Music on" />
+      </button>
+      <header class="topbar">
+        <p class="kicker">Devi Pokkho · A visual guide</p>
+        <h1>১০ মহাবিদ্যা</h1>
+        <p class="subtitle">The ten great wisdom goddesses</p>
+      </header>
+      <div class="book-wrap">
+        <div class="book" id="book" aria-label="Mahavidya book">
+          <div class="spine" aria-hidden="true"></div>
+          <div class="cover-prompt" aria-hidden="true">
+            <span class="cover-prompt-text">Press Enter or Space</span>
+          </div>
+        </div>
+      </div>
+      <nav class="controls" aria-label="Page controls">
+        <button type="button" id="prevBtn" class="nav-btn">
+          <span class="arrow">‹</span>
+          Previous
+        </button>
+        <p class="folio" id="folio">1 / 12</p>
+        <button type="button" id="nextBtn" class="nav-btn">
+          Next
+          <span class="arrow">›</span>
+        </button>
+      </nav>
+      <p class="hint" id="hint">
+        Turn the pages with the arrows, swipe, or use your keyboard.
+      </p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
